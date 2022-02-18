@@ -14,6 +14,6 @@ namespace APIEngine.Context
 
         }
 
-        public DbSet<DB_Engine> db_engine;
+        public DbSet<DB_Engine> db_engine { get; set; }
     }
 }
