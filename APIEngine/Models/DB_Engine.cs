@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace APIEngine.Models
 {
-    public class DBEngines
+    public class DB_Engine
     {
         [Key]
         public int id { get; set; }
